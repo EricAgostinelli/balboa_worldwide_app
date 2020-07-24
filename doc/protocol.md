@@ -14,8 +14,8 @@ MS ML MT MT MT ... CS ME
 ```
 
 * MS, ME: Message Start/End (always 0x7e "~")
-* MT: Message Type
 * ML: Message Length
+* MT: Message Type
 * CS: Checksum (CRC-8 with 0x02 initial value, and 0x02 final XOR)
 
 ## Incoming Messages
